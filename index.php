@@ -17,9 +17,9 @@
 </head>
 
 <body>
-<h2><?php if ($_SESSION['count']==1){ echo("Benvenuto!<br> E' la prima volta che ti vedo");}
+<?php if ($_SESSION['count']==1){ echo("<h2>Benvenuto!</h2><br> E' la prima volta che ti vedo");}
     else{echo( "Ciao hai già visitato il sito " .$_SESSION['count']." volte");}?>
-    </h2>
+    
 
 </body>
 </html>
